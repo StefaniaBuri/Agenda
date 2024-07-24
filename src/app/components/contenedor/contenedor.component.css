@@ -1,0 +1,7 @@
+.tareas {
+    border: black;
+    background-color: rgb(250, 235, 223);
+    margin: 10px;
+    height: 40em;
+    border-radius: 10px;
+}
