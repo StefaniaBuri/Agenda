@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Tarea } from '../../interfaces/tarea';
 
 @Component({
   selector: 'app-tarea',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './tarea.component.css'
 })
 export class TareaComponent {
+  @Input() tarea: Tarea | undefined;
 
+  constructor(){}
 }

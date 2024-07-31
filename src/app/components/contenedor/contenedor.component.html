@@ -1,7 +1,6 @@
 <div class="tareas">
-  <table></table>
-  <app-tarea>Tarea 1</app-tarea>
-  <app-tarea>Tarea 2</app-tarea>
-  <app-tarea>Tarea 3</app-tarea>
-  <app-tarea>Tarea 4</app-tarea>
+  <app-tarea
+    *ngFor="let task of gestorTareas.tareas"
+    [tarea]="task"
+  ></app-tarea>
 </div>

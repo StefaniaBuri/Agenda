@@ -1,5 +1,5 @@
 <div class="form">
-  <input type="text" name="" id="" placeholder="Tarea" />
-  <input type="date" name="" id="" />
-  <button>Crear</button>
+  <input [(ngModel)]="nombre" type="text" name="" id="" placeholder="Tarea" />
+  <input [(ngModel)]="fecha" type="date" name="" id="" />
+  <button (click)="crearTarea()">Crear</button>
 </div>
